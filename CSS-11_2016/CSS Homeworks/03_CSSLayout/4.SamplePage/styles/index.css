@@ -1,0 +1,99 @@
+﻿body
+{
+    padding-left:150px;
+    padding-right:150px;
+}
+aside
+{
+   height:700px;
+}
+
+aside ul{
+    list-style-type:none;
+}
+
+div
+{
+    border:1px solid gray;
+}
+
+#left
+{
+    float:left;
+    height:100%;
+    width:250px;
+    background-color:#F1F1F1;    
+}
+
+#right
+{
+    float:right;
+    height:100%;
+    width:250px;
+    background-color:#FFFFFF;
+}
+
+#center
+{
+    position:absolute;
+    top:8px;
+    left:410px;    
+    width:528px;
+    height:700px;
+    background-color:#FFFFFF;
+}
+
+.maincontent
+{
+    width:auto;
+    height:100px;    
+    padding:10px;    
+}
+
+
+#tutorial
+{
+    height:150px;
+}
+
+td
+{   
+    vertical-align:top;
+    padding:5px;
+}
+
+#bottomButtons
+{
+    border:none;
+}
+
+.rightcontent
+{
+    width:auto;
+    height:114px;    
+    padding:10px;
+    text-align:center;    
+}
+
+
+#sitesearch
+{    
+    height:20px;
+    background-color:lightgrey;
+    color:white;
+    text-align:center;
+    border:none;
+    
+}
+
+.prevBtn{
+    background-image: url('../files/prevBtn.jpg');
+    width:115px;
+    height:28px;
+}
+
+.nextBtn{
+    background-image: url('../files/nextBtn.jpg');
+    width:115px;
+    height:28px;
+}

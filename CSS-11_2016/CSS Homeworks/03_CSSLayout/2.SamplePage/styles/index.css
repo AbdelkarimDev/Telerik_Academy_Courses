@@ -1,0 +1,83 @@
+﻿body
+{
+    background-color:#EEEEEE;
+}
+
+
+h1
+{
+    font-size:30px;
+    text-align:center;
+}
+
+
+.frame
+{
+    height:120px;
+    padding:30px;
+    margin: 60px 240px;
+    width:auto;
+    background-color:#FFFFFF;
+    border: 1px solid #a78888;
+}
+
+.picture
+{
+    float:left;
+    width:40%;
+    height: 100%;        
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;    
+    
+}
+
+img
+{
+    height:100%;    
+}
+
+.text
+{
+    float:right;
+    width:50%;    
+    height:75%;
+    color:black;
+    font-size:12px;
+}
+
+.buttons
+{
+    float:right;
+    width:50%;
+    height:25%;    
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;    
+}
+
+div input{
+    height:100%;
+    width:35%;
+    font-size:12px;
+    
+}
+
+.addBtn{
+    background-image: url('../files/addBtn.png');
+}
+
+.listenBtn{
+    background-image: url('../files/listenBtn.png');
+}
+
+
+
+p{
+    font-family:Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    margin:5px;
+}
+
+.boldItems{
+    font-weight:bold;
+}

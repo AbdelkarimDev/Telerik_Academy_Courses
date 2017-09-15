@@ -1,0 +1,23 @@
+@font-face {
+	font-family:EdwardianScriptITC;    
+	src: url('ITCEdscr.TTF');
+}
+
+#firstParagraph:first-letter {
+    font-family:EdwardianScriptITC;    
+    font-size:xx-large;
+   
+}
+
+#firstParagraph:first-line
+{
+    font-weight:bold;
+}
+
+div
+{
+    font-family:Consolas;
+    color:#0094ff;    
+    text-align:justify;
+}
+

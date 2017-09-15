@@ -1,0 +1,174 @@
+.div1 {
+    border-width: 1px;
+    border-color: #121F27;
+    border-style: solid;
+    position: relative;
+    width: 450px;
+    height: 390px;
+    background-color: #EAF3FB;
+}
+
+.div1 div {
+    background-color: #D9E4F1;
+}
+
+a {
+    font-family: Calibri;
+ 
+}
+
+#close {
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+
+
+img {
+    margin: 3px 0px 0px 5px;
+}
+
+.menu {
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    margin: 0px 5px 0px 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+10,d8e1e7+45,e0eff9+100 */
+    background: #f2f6f8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f2f6f8 10%, #d8e1e7 45%, #e0eff9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f2f6f8 10%, #d8e1e7 45%, #e0eff9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f2f6f8 10%, #d8e1e7 45%, #e0eff9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0);
+    /* IE6-9 */
+}
+
+.calc {
+    border-width: 1px;
+    border-color: #B7BBBF;
+    border-style: solid;
+    width: auto;
+    height: 340px;
+    margin: 0px 5px 0px 5px
+}
+
+#screentxtbox {
+    float: right;
+    margin: 5px;
+    height: 40px;
+    width: 418px;
+    margin: 10px 10px 5px 5px;
+    font-size: 30px;
+    text-align: right;
+    font-family: Consolas;
+    background: -moz-linear-gradient(100% 100% 90deg, white, #e0f2fb);
+    background: -webkit-linear-gradient(top, #e0f2fb 5%, white 90%);
+}
+
+#binaryView>table {
+    font-family: Consolas;
+    font-size: 11px;
+    text-align: left;
+    margin: 0px 5px 0px 5px;
+    height: 10px;
+    width: 424px;
+    /*border-width: 1px;*/
+    border-color: #B7BBBF;
+    border-style: ridge;
+    border-spacing: 0 0px;
+}
+
+#word, #toggleNumSystem {
+    border-width: 1px;
+    border-color: #B7BBBF;
+    border-style: solid;
+}
+
+#toggleNumSystem {
+    position: absolute;
+    left: 10px;
+    top: 180px;
+    height: 85px;
+    width: 69px;
+    /*background-color: aliceblue;*/
+    font-size: 0.8em;
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
+}
+
+#word {
+    position: absolute;
+    left: 10px;
+    top: 280px;
+    height: 85px;
+    width: 69px;
+    font-size: 0.8em;
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+}
+
+#buttons {
+    position: absolute;
+    left: 90px;
+    top: 180px;
+    height: 198px;
+    width: 350px;
+    text-align: center;
+    /*background-color: aliceblue;*/
+    border-color: transparent;
+}
+
+#tablekeyboard #binaryView {
+    height: 60px;
+    background-color: aliceblue;
+    margin: 6px 6px 6px 6px;
+}
+
+.innactiveButtons {
+    font-size: 12px;
+    height: 27px;
+    width: 38px;
+    background-color: transparent;
+    border: 1px solid #B7BBBF;
+    border-radius: 4px;
+}
+
+.calcButton {
+    font-size: 12px;
+    height: 27px;
+    width: 39px;
+    border-radius: 4px;
+    background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+}
+
+#buttonzero {
+    height: 27px;
+    width: 78px;
+}
+
+#buttonEqual {
+    height: 60px;
+    width: 38px;
+}
+
+.calcButton:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,f1da36+86 */
+    background: #fefcea;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 86%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fefcea 0%, #f1da36 86%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fefcea 0%, #f1da36 86%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36', GradientType=0);
+    /* IE6-9 */
+}

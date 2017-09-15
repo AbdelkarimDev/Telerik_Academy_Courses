@@ -1,0 +1,44 @@
+    h3 {
+        color: #BBBBBB;
+    }
+    
+    :root {
+        background: #595959;
+    }
+    
+    .title {
+        color: white;
+        font-style: italic;
+        padding: 5px;
+    }
+    
+    .yellow {
+        color: #EEEDA7
+    }
+    
+    .grey {
+        color: #BBBBBB;
+    }
+    
+    .red {
+        font-style: normal;
+        color: red;
+    }
+    
+    .orange {
+        font-style: normal;
+        color: #E16A25;
+    }
+    /*table, tr, td {
+   border: 1px solid red;
+
+}*/
+    
+    table {
+        width: 350px;
+    }
+    
+    tr {
+        height: 28px;
+    }
+ 

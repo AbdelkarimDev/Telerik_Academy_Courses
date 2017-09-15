@@ -1,0 +1,70 @@
+body {
+    background-color: #adaaaa;
+}
+
+h1 {
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 50pt;
+}
+
+nav {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 26pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul li:last-of-type {
+    text-decoration: underline;
+    color: white;
+    font-size: 26pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul li .current {
+    background-color: #D3D3D3;
+}
+
+section>article>header>h1 {
+    text-align: left;
+    font-size: 33pt;
+}
+
+p {
+    font-size: 20pt;
+}
+
+span {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section article:nth-child(2) {
+    display: none;
+}
+
+footer>p {
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+article>footer>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+body>footer {
+    text-align: center;
+    font-size: 16pt;
+}

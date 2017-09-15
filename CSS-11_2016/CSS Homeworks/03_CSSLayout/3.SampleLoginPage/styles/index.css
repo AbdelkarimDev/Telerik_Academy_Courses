@@ -1,0 +1,57 @@
+﻿
+header>div {
+    height: 60px;
+    background-color: #282222;
+    
+}
+
+    div> label, input, img
+    {    
+        color:whitesmoke;
+        height:50%;
+        font-size:24px; 
+        margin-top:9px;
+    }
+
+        input, label
+        {
+            color:lightgray;   
+            text-indent:12px;
+            margin-left:60px; 
+        }
+
+        #Go
+        {
+            float:right;
+            width:60px;
+            text-indent:0;
+            text-align:center;    
+            margin-right:20%;
+            font-size:15px;    
+            background-color:red;
+            border-radius:10px;
+        }
+
+        img
+        {
+            float:left;
+            margin-left:2%;
+        }
+
+body
+{
+    background-color:#424242;    
+}
+
+section>div>h1
+{
+    font-size:45px;
+    color:yellow;
+}
+
+section>div>p
+{
+    font-size:18px;
+    color:lightgray;
+}
+
